@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sweproject.Controller">
+   <children>
+      <Text fill="WHITE" layoutX="202.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reserve" wrappingWidth="150.4000000000001">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Year" layoutX="158.0" layoutY="173.0" prefHeight="26.0" prefWidth="61.0" />
+      <Text fill="WHITE" layoutX="25.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="teamReserve" wrappingWidth="101.49713134765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Button fx:id="addProject" layoutX="501.0" layoutY="265.0" mnemonicParsing="false" onAction="#reserve" text="Add">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="498.0" layoutY="346.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="24.0" prefWidth="67.0" text="back">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <TextField fx:id="TeamToReserve" layoutX="132.0" layoutY="72.0" />
+      <Label fx:id="checkIfteamIsAvalible" layoutX="300.0" layoutY="73.0" prefHeight="22.0" prefWidth="170.0" text="whatever" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Minute" layoutX="158.0" layoutY="333.0" prefHeight="26.0" prefWidth="61.0" />
+      <TextField fx:id="Hour" layoutX="158.0" layoutY="297.0" prefHeight="26.0" prefWidth="61.0" />
+      <TextField fx:id="Day" layoutX="158.0" layoutY="252.0" prefHeight="26.0" prefWidth="61.0" />
+      <TextField fx:id="Month" layoutX="158.0" layoutY="212.0" prefHeight="26.0" prefWidth="61.0" />
+      <Text fill="WHITE" layoutX="31.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minute" wrappingWidth="101.49713134765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="31.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hour" wrappingWidth="101.49713134765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="31.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Day" wrappingWidth="101.49713134765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="25.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month" wrappingWidth="101.49713134765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="31.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year" wrappingWidth="101.49713134765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="25.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="machineToReserve" wrappingWidth="101.49713134765625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <TextField fx:id="machinereserveID" layoutX="145.0" layoutY="116.0" />
+      <Label fx:id="checkIfteamIsAvalible2" layoutX="311.0" layoutY="117.0" prefHeight="22.0" prefWidth="170.0" text="whatever" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="checkIfteamIsAvalible3" layoutX="134.0" layoutY="370.0" prefHeight="22.0" prefWidth="170.0" text="whatever" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

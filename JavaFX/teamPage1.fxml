@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sweproject.Controller">
+   <children>
+      <Text fill="WHITE" layoutX="14.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Members in software team :" wrappingWidth="228.3165283203125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="sweTeamLabel1" layoutX="22.0" layoutY="77.0" text="No member currently" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="513.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="24.0" prefWidth="67.0" text="back">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="34.0" layoutY="361.0" mnemonicParsing="false" onAction="#refresh" prefHeight="24.0" prefWidth="67.0" text="refresh">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label fx:id="sweTeamLabel5" layoutX="22.0" layoutY="257.0" text="No member currently" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sweTeamLabel4" layoutX="22.0" layoutY="207.0" text="No member currently" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sweTeamLabel3" layoutX="22.0" layoutY="160.0" text="No member currently" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sweTeamLabel2" layoutX="22.0" layoutY="119.0" text="No member currently" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
